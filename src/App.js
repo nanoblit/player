@@ -1,9 +1,13 @@
-import React from 'react';
+import React from "react";
 
-function App() {
+import GlobalStyles from "./styles/GlobalStyles";
+import Player from "./components/Player/Player";
+
+const App = () => {
   return (
     <div className="App">
-      test
+      <GlobalStyles />
+      <Player />
     </div>
   );
 }
